@@ -35,15 +35,15 @@ def softmax(data):
     
     return x_s 
     
-if __name__ == '__main__':
-    data = np.array([1, 2, 3, 4])
-    t_x = np.array([[9, 2, 5, 0, 0],
-                [7, 5, 0, 0 ,0]])
-    sig = sigmoid(data=data)
-    sof = softmax(data=t_x)
-    print("*"*100)
-    print(f"Sigmoid result: {sig}")
-    print("*"*100)
-    print(f"Softmax result: {sof}")
-    print("*"*100)
+# if __name__ == '__main__':
+#     data = np.array([1, 2, 3, 4])
+#     t_x = np.array([[9, 2, 5, 0, 0],
+#                 [7, 5, 0, 0 ,0]])
+#     sig = sigmoid(data=data)
+#     sof = softmax(data=t_x)
+#     print("*"*100)
+#     print(f"Sigmoid result: {sig}")
+#     print("*"*100)
+#     print(f"Softmax result: {sof}")
+#     print("*"*100)
         
